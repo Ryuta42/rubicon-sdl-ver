@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Rubicon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="SDL2-2.0.4/include/SDL2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+					<Add option="-lSDL2_ttf" />
+					<Add option="-lSDL2_image" />
+					<Add directory="SDL2-2.0.4/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SDL2-2.0.4/include/SDL2" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-lSDL2main" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-lSDL2_mixer" />
+		</Linker>
+		<Unit filename="include/background.hpp" />
+		<Unit filename="include/bullet.hpp" />
+		<Unit filename="include/collisionHandler.hpp" />
+		<Unit filename="include/drone.hpp" />
+		<Unit filename="include/enemy.hpp" />
+		<Unit filename="include/enemySpawner.hpp" />
+		<Unit filename="include/gameOver.hpp" />
+		<Unit filename="include/game_state.hpp" />
+		<Unit filename="include/gun.hpp" />
+		<Unit filename="include/hasHitbox.hpp" />
+		<Unit filename="include/healthBar.hpp" />
+		<Unit filename="include/hitbox.hpp" />
+		<Unit filename="include/hud.hpp" />
+		<Unit filename="include/mainMenu.hpp" />
+		<Unit filename="include/particle.hpp" />
+		<Unit filename="include/player.hpp" />
+		<Unit filename="include/playerShip.hpp" />
+		<Unit filename="include/pod.hpp" />
+		<Unit filename="include/powerBar.hpp" />
+		<Unit filename="include/score.hpp" />
+		<Unit filename="include/ship.hpp" />
+		<Unit filename="include/stage.hpp" />
+		<Unit filename="include/stateHandler.hpp" />
+		<Unit filename="include/timer.hpp" />
+		<Unit filename="include/util.hpp" />
+		<Unit filename="src/background.cpp" />
+		<Unit filename="src/bullet.cpp" />
+		<Unit filename="src/collisionHandler.cpp" />
+		<Unit filename="src/drone.cpp" />
+		<Unit filename="src/enemy.cpp" />
+		<Unit filename="src/enemySpawner.cpp" />
+		<Unit filename="src/gameOver.cpp" />
+		<Unit filename="src/gun.cpp" />
+		<Unit filename="src/healthBar.cpp" />
+		<Unit filename="src/hitbox.cpp" />
+		<Unit filename="src/hud.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/mainMenu.cpp" />
+		<Unit filename="src/particle.cpp" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/playerShip.cpp" />
+		<Unit filename="src/pod.cpp" />
+		<Unit filename="src/powerBar.cpp" />
+		<Unit filename="src/score.cpp" />
+		<Unit filename="src/ship.cpp" />
+		<Unit filename="src/stage.cpp" />
+		<Unit filename="src/stateHandler.cpp" />
+		<Unit filename="src/timer.cpp" />
+		<Unit filename="src/util.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

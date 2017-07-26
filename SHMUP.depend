@@ -1,0 +1,2830 @@
+# depslib dependency file v1.0
+1455401648 source:c:\users\miles\documents\bitbucket\project\main.cpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+	"Score.h"
+	"util.h"
+	"GameState.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\begin_code.h
+
+1451764693 c:\sdl 2.0.4\include\sdl2\close_code.h
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl 2.0.4\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451809144 c:\sdl 2.0.4\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 c:\sdl 2.0.4\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1453644517 c:\users\miles\documents\bitbucket\project\game.h
+	<SDL_image.h>
+	<iostream>
+
+1454374105 source:c:\users\miles\documents\bitbucket\project\src\field.cpp
+	"..\include\Field.h"
+	"Sprite.h"
+	<SDL_image.h>
+	<iostream>
+
+1454374656 c:\users\miles\documents\bitbucket\project\include\field.h
+	<SDL.h>
+	"Sprite.h"
+
+1454162366 source:c:\users\miles\documents\bitbucket\project\src\gameobject.cpp
+	"GameObject.h"
+	<SDL_image.h>
+	<iostream>
+
+1457559337 D
+
+1457703484 source:c:\users\miles\documents\bitbucket\project\src\hud.cpp
+	"hud.hpp"
+
+1457579445 
+	"util.hpp"
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<time.h>
+	"util.hpp"
+	"bullet.hpp"
+	<string>
+	<vector>
+	<iostream>
+	"util.hpp"
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454721758 source:c:\users\miles\documents\bitbucket\project\src\sprite.cpp
+	"Sprite.h"
+	"Field.h"
+	<SDL_image.h>
+	<iostream>
+
+1454373851 c:\users\miles\documents\bitbucket\project\include\gameobject.h
+	<SDL.h>
+	<string>
+	"Sprite.h"
+
+1454737201 c:\users\miles\documents\bitbucket\project\include\sprite.h
+	<SDL.h>
+	<iostream>
+
+1454757841 c:\users\miles\documents\bitbucket\project\include\hud.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1454757477 c:\users\miles\documents\bitbucket\project\include\background.h
+	<SDL.h>
+	<string>
+
+1457700721 source:c:\users\miles\documents\bitbucket\project\src\background.cpp
+	"background.hpp"
+
+1454390548 c:\users\miles\documents\bitbucket\project\include\score.h
+
+1457704485 source:c:\users\miles\documents\bitbucket\project\src\score.cpp
+	"score.hpp"
+	"enemySpawner.hpp"
+
+1454571832 source:c:\users\miles\documents\bitbucket\project\src\gamestates.cpp
+
+1455400636 c:\users\miles\documents\bitbucket\project\include\util.h
+	<SDL.h>
+	"Timer.h"
+	"GameState.h"
+
+1457702715 source:c:\users\miles\documents\bitbucket\project\src\stage.cpp
+	"stage.hpp"
+
+1455917853 ner.hpp"
+
+1454757806 c:\users\miles\documents\bitbucket\project\include\stage.h
+	<SDL.h>
+	<SDL_ttf.h>
+	"Player.h"
+	"Background.h"
+	"HUD.h"
+	<string>
+	<GameState.h>
+
+1454739083 c:\users\miles\documents\bitbucket\project\include\gamestate.h
+
+1454571832 c:\users\miles\documents\bitbucket\project\src\gamestates.cpp
+
+1457689465 source:c:\users\miles\documents\bitbucket\project\src\util.cpp
+	"util.hpp"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\begin_code.h
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\close_code.h
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 c:\sdl2-2.0.4\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451809144 c:\sdl2-2.0.4\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454757938 c:\users\miles\documents\bitbucket\project\include\timer.h
+
+1457704271 source:c:\users\miles\documents\bitbucket\project\src\player.cpp
+	"player.hpp"
+	<iostream>
+	"playerShip.hpp"
+	"stateHandler.hpp"
+
+1454757475 c:\users\miles\documents\bitbucket\project\include\player.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"util.h"
+
+1457704485 source:c:\users\miles\documents\bitbucket\project\src\timer.cpp
+	"timer.hpp"
+
+1457701127 c:\users\miles\documents\bitbucket\project\include\background.hpp
+	<SDL.h>
+	<string>
+	"hud.hpp"
+	"util.hpp"
+
+1457703484 c:\users\miles\documents\bitbucket\project\include\hud.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"util.hpp"
+	"healthBar.hpp"
+	"powerBar.hpp"
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\main.cpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<time.h>
+	"util.hpp"
+	"stateHandler.hpp"
+
+1457704485 c:\users\miles\documents\bitbucket\project\include\score.hpp
+	<iostream>
+	<sstream>
+	<SDL.h>
+	<SDL_ttf.h>
+	"util.hpp"
+
+1457704271 c:\users\miles\documents\bitbucket\project\include\util.hpp
+	<SDL.h>
+	<string>
+	<fstream>
+	<list>
+	"timer.hpp"
+	"game_state.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\timer.hpp
+	<SDL.h>
+	<iostream>
+
+1457702715 c:\users\miles\documents\bitbucket\project\include\game_state.hpp
+
+1457704271 c:\users\miles\documents\bitbucket\project\include\player.hpp
+	<SDL.h>
+	<string>
+	"playerShip.hpp"
+
+1457704485 c:\users\miles\documents\bitbucket\project\include\stage.hpp
+	<SDL.h>
+	<iostream>
+	"hud.hpp"
+	"background.hpp"
+	"player.hpp"
+	"enemySpawner.hpp"
+	"collisionHandler.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457701127 source:c:\users\miles\documents\bitbucket\project\src\bullet.cpp
+	"bullet.hpp"
+	<SDL.h>
+	<math.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hitbox.hpp"
+
+1457701127 c:\users\miles\documents\bitbucket\project\include\bullet.hpp
+	<SDL.h>
+	<string>
+	"hitbox.hpp"
+	"hasHitbox.hpp"
+
+1457703374 source:c:\users\miles\documents\bitbucket\project\src\gun.cpp
+	"gun.hpp"
+
+1457703374 c:\users\miles\documents\bitbucket\project\include\gun.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	"util.hpp"
+	"bullet.hpp"
+
+1455842053 .h>
+	"stateHandler.hpp"
+
+1451801791 c:\sdl2-2.0.4\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\sdl2-2.0.4\include\sdl2\sdl_types.h
+	"SDL_stdinc.h"
+
+1457702056 source:c:\users\miles\documents\bitbucket\project\src\enemy.cpp
+	"enemy.hpp"
+
+1457702056 c:\users\miles\documents\bitbucket\project\include\enemy.hpp
+	<SDL.h>
+	<string>
+	<math.h>
+	<iostream>
+	"util.hpp"
+	"ship.hpp"
+	"score.hpp"
+
+1457721423 source:c:\users\miles\documents\bitbucket\project\src\enemyspawner.cpp
+	"enemySpawner.hpp"
+
+1457702715 c:\users\miles\documents\bitbucket\project\include\enemyspawner.hpp
+	<list>
+	<string>
+	<vector>
+	"util.hpp"
+	"pod.hpp"
+	"drone.hpp"
+	"enemy.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\hitbox.hpp
+	<SDL.h>
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\hitbox.cpp
+	"hitbox.hpp"
+	<SDL.h>
+	<iostream>
+	"collisionHandler.hpp"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\begin_code.h
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\close_code.h
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\bitbucket\project\sdl2-2.0.4\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451809144 e.h"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\hashitbox.hpp
+	<iostream>
+	"hitbox.hpp"
+
+1457701323 source:c:\users\miles\documents\bitbucket\project\src\collisionhandler.cpp
+	"collisionHandler.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\collisionhandler.hpp
+	<SDL.h>
+	<list>
+	<list>
+	"bullet.hpp"
+	"enemy.hpp"
+	"playerShip.hpp"
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\ship.cpp
+	"ship.hpp"
+
+1457704485 c:\users\miles\documents\bitbucket\project\include\ship.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hasHitbox.hpp"
+	"gun.hpp"
+
+1457704271 c:\users\miles\documents\bitbucket\project\include\playership.hpp
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	"util.hpp"
+	"healthBar.hpp"
+	"ship.hpp"
+	"particle.hpp"
+
+1457704271 source:c:\users\miles\documents\bitbucket\project\src\playership.cpp
+	"playerShip.hpp"
+
+1457702715 source:c:\users\miles\documents\bitbucket\project\src\gameover.cpp
+	"gameOver.hpp"
+
+1457703374 c:\users\miles\documents\bitbucket\project\include\gameover.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<sstream>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457559334 source:c:\users\miles\documents\bitbucket\project\src\ships\enemy.cpp
+	"enemy.hpp"
+
+1457559334 source:c:\users\miles\documents\bitbucket\project\src\ships\playership.cpp
+	"playerShip.hpp"
+
+1457559334 source:c:\users\miles\documents\bitbucket\project\src\ships\ship.cpp
+	"ship.hpp"
+
+1457559334 source:c:\users\miles\documents\bitbucket\project\src\ships\pod.cpp
+	"pod.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\pod.hpp
+	"enemy.hpp"
+
+1457559334 source:c:\users\miles\documents\bitbucket\project\src\ships\drone.cpp
+	"drone.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\drone.hpp
+	"enemy.hpp"
+
+1457704271 c:\users\miles\documents\bitbucket\project\include\particle.hpp
+	<SDL.h>
+	<math.h>
+	<iostream>
+	"util.hpp"
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\mainmenu.cpp
+	"mainMenu.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\mainmenu.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\particle.cpp
+	"particle.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\statehandler.hpp
+	"util.hpp"
+	"mainMenu.hpp"
+	"stage.hpp"
+	"gameOver.hpp"
+
+1457680452 source:c:\users\miles\documents\bitbucket\project\src\statehandler.cpp
+	"stateHandler.hpp"
+
+1457680452 c:\users\miles\documents\bitbucket\project\include\healthbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+
+1457703374 source:c:\users\miles\documents\bitbucket\project\src\healthbar.cpp
+	"healthBar.hpp"
+
+1457590059 source:c:\users\miles\documents\bitbucket\project\src\trigun.cpp
+	"trigun.hpp"
+
+1457590059 c:\users\miles\documents\bitbucket\project\include\trigun.hpp
+	"gun.hpp"
+
+1457694967 source:c:\users\miles\documents\bitbucket\project\src\drone.cpp
+	"drone.hpp"
+
+1457704271 source:c:\users\miles\documents\bitbucket\project\src\pod.cpp
+	"pod.hpp"
+
+1457704271 c:\users\miles\documents\bitbucket\project\include\powerbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"playerShip.hpp"
+	"score.hpp"
+
+1457704271 source:c:\users\miles\documents\bitbucket\project\src\powerbar.cpp
+	"powerBar.hpp"
+
+1457700721 source:c:\users\miles\documents\rubicon (sdl ver)\src\background.cpp
+	"background.hpp"
+
+1457701127 c:\users\miles\documents\rubicon (sdl ver)\include\background.hpp
+	<SDL.h>
+	<string>
+	"hud.hpp"
+	"util.hpp"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\begin_code.h
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\close_code.h
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457703484 c:\users\miles\documents\rubicon (sdl ver)\include\hud.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"util.hpp"
+	"healthBar.hpp"
+	"powerBar.hpp"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457704271 c:\users\miles\documents\rubicon (sdl ver)\include\util.hpp
+	<SDL.h>
+	<string>
+	<fstream>
+	<list>
+	"timer.hpp"
+	"game_state.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\timer.hpp
+	<SDL.h>
+	<iostream>
+
+1457702715 c:\users\miles\documents\rubicon (sdl ver)\include\game_state.hpp
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\healthbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+
+1457704271 c:\users\miles\documents\rubicon (sdl ver)\include\powerbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"playerShip.hpp"
+	"score.hpp"
+
+1457704271 c:\users\miles\documents\rubicon (sdl ver)\include\playership.hpp
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	"util.hpp"
+	"healthBar.hpp"
+	"ship.hpp"
+	"particle.hpp"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457704485 c:\users\miles\documents\rubicon (sdl ver)\include\ship.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hasHitbox.hpp"
+	"gun.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\hashitbox.hpp
+	<iostream>
+	"hitbox.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\hitbox.hpp
+	<SDL.h>
+
+1457703374 c:\users\miles\documents\rubicon (sdl ver)\include\gun.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	"util.hpp"
+	"bullet.hpp"
+
+1457701127 c:\users\miles\documents\rubicon (sdl ver)\include\bullet.hpp
+	<SDL.h>
+	<string>
+	"hitbox.hpp"
+	"hasHitbox.hpp"
+
+1457704271 c:\users\miles\documents\rubicon (sdl ver)\include\particle.hpp
+	<SDL.h>
+	<math.h>
+	<iostream>
+	"util.hpp"
+
+1457704485 c:\users\miles\documents\rubicon (sdl ver)\include\score.hpp
+	<iostream>
+	<sstream>
+	<SDL.h>
+	<SDL_ttf.h>
+	"util.hpp"
+
+1457680453 c:\users\miles\documents\rubicon (sdl ver)\sdl2-2.0.4\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457701127 source:c:\users\miles\documents\rubicon (sdl ver)\src\bullet.cpp
+	"bullet.hpp"
+	<SDL.h>
+	<math.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hitbox.hpp"
+
+1457701323 source:c:\users\miles\documents\rubicon (sdl ver)\src\collisionhandler.cpp
+	"collisionHandler.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\collisionhandler.hpp
+	<SDL.h>
+	<list>
+	<list>
+	"bullet.hpp"
+	"enemy.hpp"
+	"playerShip.hpp"
+
+1457702056 c:\users\miles\documents\rubicon (sdl ver)\include\enemy.hpp
+	<SDL.h>
+	<string>
+	<math.h>
+	<iostream>
+	"util.hpp"
+	"ship.hpp"
+	"score.hpp"
+
+1457694967 source:c:\users\miles\documents\rubicon (sdl ver)\src\drone.cpp
+	"drone.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\drone.hpp
+	"enemy.hpp"
+
+1457702056 source:c:\users\miles\documents\rubicon (sdl ver)\src\enemy.cpp
+	"enemy.hpp"
+
+1457721423 source:c:\users\miles\documents\rubicon (sdl ver)\src\enemyspawner.cpp
+	"enemySpawner.hpp"
+
+1457702715 c:\users\miles\documents\rubicon (sdl ver)\include\enemyspawner.hpp
+	<list>
+	<string>
+	<vector>
+	"util.hpp"
+	"pod.hpp"
+	"drone.hpp"
+	"enemy.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\pod.hpp
+	"enemy.hpp"
+
+1457702715 source:c:\users\miles\documents\rubicon (sdl ver)\src\gameover.cpp
+	"gameOver.hpp"
+
+1457703374 c:\users\miles\documents\rubicon (sdl ver)\include\gameover.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<sstream>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\statehandler.hpp
+	"util.hpp"
+	"mainMenu.hpp"
+	"stage.hpp"
+	"gameOver.hpp"
+
+1457680452 c:\users\miles\documents\rubicon (sdl ver)\include\mainmenu.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457704485 c:\users\miles\documents\rubicon (sdl ver)\include\stage.hpp
+	<SDL.h>
+	<iostream>
+	"hud.hpp"
+	"background.hpp"
+	"player.hpp"
+	"enemySpawner.hpp"
+	"collisionHandler.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457704271 c:\users\miles\documents\rubicon (sdl ver)\include\player.hpp
+	<SDL.h>
+	<string>
+	"playerShip.hpp"
+
+1457703374 source:c:\users\miles\documents\rubicon (sdl ver)\src\gun.cpp
+	"gun.hpp"
+
+1457703374 source:c:\users\miles\documents\rubicon (sdl ver)\src\healthbar.cpp
+	"healthBar.hpp"
+
+1457680452 source:c:\users\miles\documents\rubicon (sdl ver)\src\hitbox.cpp
+	"hitbox.hpp"
+	<SDL.h>
+	<iostream>
+	"collisionHandler.hpp"
+
+1457703484 source:c:\users\miles\documents\rubicon (sdl ver)\src\hud.cpp
+	"hud.hpp"
+
+1501047356 source:c:\users\miles\documents\rubicon (sdl ver)\src\main.cpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<time.h>
+	"util.hpp"
+	"stateHandler.hpp"
+
+1457680452 source:c:\users\miles\documents\rubicon (sdl ver)\src\mainmenu.cpp
+	"mainMenu.hpp"
+
+1457680452 source:c:\users\miles\documents\rubicon (sdl ver)\src\particle.cpp
+	"particle.hpp"
+
+1457704271 source:c:\users\miles\documents\rubicon (sdl ver)\src\player.cpp
+	"player.hpp"
+	<iostream>
+	"playerShip.hpp"
+	"stateHandler.hpp"
+
+1457704271 source:c:\users\miles\documents\rubicon (sdl ver)\src\playership.cpp
+	"playerShip.hpp"
+
+1457704271 source:c:\users\miles\documents\rubicon (sdl ver)\src\pod.cpp
+	"pod.hpp"
+
+1457704271 source:c:\users\miles\documents\rubicon (sdl ver)\src\powerbar.cpp
+	"powerBar.hpp"
+
+1457704485 source:c:\users\miles\documents\rubicon (sdl ver)\src\score.cpp
+	"score.hpp"
+	"enemySpawner.hpp"
+
+1457680452 source:c:\users\miles\documents\rubicon (sdl ver)\src\ship.cpp
+	"ship.hpp"
+
+1457702715 source:c:\users\miles\documents\rubicon (sdl ver)\src\stage.cpp
+	"stage.hpp"
+
+1457680452 source:c:\users\miles\documents\rubicon (sdl ver)\src\statehandler.cpp
+	"stateHandler.hpp"
+
+1457704485 source:c:\users\miles\documents\rubicon (sdl ver)\src\timer.cpp
+	"timer.hpp"
+
+1457689465 source:c:\users\miles\documents\rubicon (sdl ver)\src\util.cpp
+	"util.hpp"
+
+1457700721 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\background.cpp
+	"background.hpp"
+
+1457701127 c:\users\miles\documents\github\rubicon-sdl-ver\include\background.hpp
+	<SDL.h>
+	<string>
+	"hud.hpp"
+	"util.hpp"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\begin_code.h
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\close_code.h
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457703484 c:\users\miles\documents\github\rubicon-sdl-ver\include\hud.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"util.hpp"
+	"healthBar.hpp"
+	"powerBar.hpp"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457704271 c:\users\miles\documents\github\rubicon-sdl-ver\include\util.hpp
+	<SDL.h>
+	<string>
+	<fstream>
+	<list>
+	"timer.hpp"
+	"game_state.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\timer.hpp
+	<SDL.h>
+	<iostream>
+
+1457702715 c:\users\miles\documents\github\rubicon-sdl-ver\include\game_state.hpp
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\healthbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+
+1457704271 c:\users\miles\documents\github\rubicon-sdl-ver\include\powerbar.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"playerShip.hpp"
+	"score.hpp"
+
+1457704271 c:\users\miles\documents\github\rubicon-sdl-ver\include\playership.hpp
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	"util.hpp"
+	"healthBar.hpp"
+	"ship.hpp"
+	"particle.hpp"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457704485 c:\users\miles\documents\github\rubicon-sdl-ver\include\ship.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hasHitbox.hpp"
+	"gun.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\hashitbox.hpp
+	<iostream>
+	"hitbox.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\hitbox.hpp
+	<SDL.h>
+
+1457703374 c:\users\miles\documents\github\rubicon-sdl-ver\include\gun.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	"util.hpp"
+	"bullet.hpp"
+
+1457701127 c:\users\miles\documents\github\rubicon-sdl-ver\include\bullet.hpp
+	<SDL.h>
+	<string>
+	"hitbox.hpp"
+	"hasHitbox.hpp"
+
+1457704271 c:\users\miles\documents\github\rubicon-sdl-ver\include\particle.hpp
+	<SDL.h>
+	<math.h>
+	<iostream>
+	"util.hpp"
+
+1457704485 c:\users\miles\documents\github\rubicon-sdl-ver\include\score.hpp
+	<iostream>
+	<sstream>
+	<SDL.h>
+	<SDL_ttf.h>
+	"util.hpp"
+
+1457680453 c:\users\miles\documents\github\rubicon-sdl-ver\sdl2-2.0.4\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457701127 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\bullet.cpp
+	"bullet.hpp"
+	<SDL.h>
+	<math.h>
+	<string>
+	<iostream>
+	"util.hpp"
+	"hitbox.hpp"
+
+1457701323 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\collisionhandler.cpp
+	"collisionHandler.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\collisionhandler.hpp
+	<SDL.h>
+	<list>
+	<list>
+	"bullet.hpp"
+	"enemy.hpp"
+	"playerShip.hpp"
+
+1457702056 c:\users\miles\documents\github\rubicon-sdl-ver\include\enemy.hpp
+	<SDL.h>
+	<string>
+	<math.h>
+	<iostream>
+	"util.hpp"
+	"ship.hpp"
+	"score.hpp"
+
+1457694967 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\drone.cpp
+	"drone.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\drone.hpp
+	"enemy.hpp"
+
+1457702056 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\enemy.cpp
+	"enemy.hpp"
+
+1457721423 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\enemyspawner.cpp
+	"enemySpawner.hpp"
+
+1457702715 c:\users\miles\documents\github\rubicon-sdl-ver\include\enemyspawner.hpp
+	<list>
+	<string>
+	<vector>
+	"util.hpp"
+	"pod.hpp"
+	"drone.hpp"
+	"enemy.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\pod.hpp
+	"enemy.hpp"
+
+1457702715 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\gameover.cpp
+	"gameOver.hpp"
+
+1457703374 c:\users\miles\documents\github\rubicon-sdl-ver\include\gameover.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<sstream>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\statehandler.hpp
+	"util.hpp"
+	"mainMenu.hpp"
+	"stage.hpp"
+	"gameOver.hpp"
+
+1457680452 c:\users\miles\documents\github\rubicon-sdl-ver\include\mainmenu.hpp
+	<SDL.h>
+	<SDL_image.h>
+	"util.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457704485 c:\users\miles\documents\github\rubicon-sdl-ver\include\stage.hpp
+	<SDL.h>
+	<iostream>
+	"hud.hpp"
+	"background.hpp"
+	"player.hpp"
+	"enemySpawner.hpp"
+	"collisionHandler.hpp"
+	"stateHandler.hpp"
+	"game_state.hpp"
+
+1457704271 c:\users\miles\documents\github\rubicon-sdl-ver\include\player.hpp
+	<SDL.h>
+	<string>
+	"playerShip.hpp"
+
+1457703374 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\gun.cpp
+	"gun.hpp"
+
+1457703374 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\healthbar.cpp
+	"healthBar.hpp"
+
+1457680452 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\hitbox.cpp
+	"hitbox.hpp"
+	<SDL.h>
+	<iostream>
+	"collisionHandler.hpp"
+
+1457703484 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\hud.cpp
+	"hud.hpp"
+
+1501047356 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\main.cpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<string>
+	<time.h>
+	"util.hpp"
+	"stateHandler.hpp"
+
+1457680452 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\mainmenu.cpp
+	"mainMenu.hpp"
+
+1457680452 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\particle.cpp
+	"particle.hpp"
+
+1457704271 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\player.cpp
+	"player.hpp"
+	<iostream>
+	"playerShip.hpp"
+	"stateHandler.hpp"
+
+1457704271 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\playership.cpp
+	"playerShip.hpp"
+
+1457704271 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\pod.cpp
+	"pod.hpp"
+
+1457704271 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\powerbar.cpp
+	"powerBar.hpp"
+
+1457704485 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\score.cpp
+	"score.hpp"
+	"enemySpawner.hpp"
+
+1457680452 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\ship.cpp
+	"ship.hpp"
+
+1457702715 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\stage.cpp
+	"stage.hpp"
+
+1457680452 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\statehandler.cpp
+	"stateHandler.hpp"
+
+1457704485 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\timer.cpp
+	"timer.hpp"
+
+1457689465 source:c:\users\miles\documents\github\rubicon-sdl-ver\src\util.cpp
+	"util.hpp"
+

@@ -1,0 +1,5 @@
+Initialization...
+All initializations successful.
+Main Menu constructed
+Main Menu destructed
+Application exited
